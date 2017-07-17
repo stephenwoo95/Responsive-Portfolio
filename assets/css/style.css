@@ -238,19 +238,160 @@ input[type=submit] {
   border: 0 none;
 }
 
+/*Mobile Responsiveness*/
+
 @media screen and (max-width:980px){
-  
 
-  #masthead{
+/*General*/
+  .container{
+    width: 80%;
+  }
 
+  .main-section{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .sidebar{
+    width: 33%;
+    margin: auto;
+  }
+
+  .sidebar h2{
+    font-size: 89%;
+  }
+
+  .social{
+    width: 30%;
+    height: 33%;
+  }
+
+/*Index*/
+  .auth-image{
+    width: 100%;
+  }
+
+/*Portfolio*/
+  .work{
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .work:last-child{
+    margin-bottom: 0;
   }
 }
 
 @media screen and (max-width:768px){
+
+/*General*/
+  .container{
+    width: 95%;
+  }
+
+  .main-section, .sidebar{
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .sidebar{
+    float: left;
+  }
+
+  .sidebar h2{
+    font-size: 100%;
+  }
+
+  .social{
+    width: 62px;
+    height: 62px;
+  }
+
+/*Index*/
+  .auth-image{
+    width: 50%;
+  }
+
+/*Portfolio*/
+  .work{
+    width: 45%;
+    margin: 10px auto;
+  }
+
+  .work:nth-child(odd){
+    float: right;
+  }
+
+  .work:nth-child(even){
+    float: left;
+    margin-right: 0px; 
+  }
+
+  .work:last-child{
+    margin-bottom: 0;
+  }
   
 }
 
 @media screen and (max-width:640px){
+/*General*/
+  
+  #logo, nav, .container{
+    width: 100%;
+  }
+
+  nav{
+    float: left;
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  #main-container{
+    width: 95%;
+  }
+
+  .main-section, .sidebar{
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .main-section{
+    margin-top: 40px;
+  }
+
+  .sidebar{
+    float: left;
+  }
+
+  .sidebar h2{
+    font-size: 100%;
+  }
+
+  .social{
+    width: 62px;
+    height: 62px;
+  }
+
+/*Index*/
+  .auth-image{
+    width: 100%;
+  }
+
+/*Portfolio*/
+  .work{
+    width: 100%;
+    margin: 10px auto;
+    float: left;
+  }
+
+  .work:last-child{
+    margin-bottom: 0;
+  }
   
 }
 
