@@ -339,6 +339,10 @@ input[type=submit] {
 @media screen and (max-width:640px){
 /*General*/
   
+  #masthead{
+    position: static;
+  }
+
   #logo, nav, .container{
     width: 100%;
   }
@@ -351,6 +355,7 @@ input[type=submit] {
 
   #main-container{
     width: 95%;
+    padding: 0;
   }
 
   .main-section, .sidebar{
@@ -358,10 +363,6 @@ input[type=submit] {
     width: 100%;
     margin: auto;
     margin-bottom: 30px;
-  }
-
-  .main-section{
-    margin-top: 40px;
   }
 
   .sidebar{
@@ -392,6 +393,5 @@ input[type=submit] {
   .work:last-child{
     margin-bottom: 0;
   }
-  
 }
 
